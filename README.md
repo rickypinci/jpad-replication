@@ -1,2 +1,60 @@
-# jpad-replication
-JPAD - Replication Package
+# Replication Package: Automated Detection of Software Performance Antipatterns in Java-based Applications
+
+This is a replication package for the paper titled "Automated Detection of Software Performance Antipatterns in Java-based Applications" and submitted to IEEE Transactions on Software Engineering (TSE) for revision.
+
+
+
+## Authors
+Catia Trubiani - Gran Sasso Science Institute (Italy)<br/>Riccardo Pinciroli - Gran Sasso Science Institute (Italy)<br/>Andrea Biaggi - University of Milan-Bicocca (Italy)<br/>Francesca Arcelli Fontana - University of Milan-Bicocca (Italy)
+
+
+
+## Abstract
+The detection of performance issues in Java-based applications is not trivial since many factors concur to poor performance and software engineers are not sufficiently supported for this task.
+The goal of this manuscript is to automate the detection of performance problems in running systems to guarantee no quality-based hinders prevent their successful usage.
+Using software performance antipatterns, i.e., bad practices expressing both the problem and the solution with the purpose of identifying shortcomings and promptly fixing them, we develop a framework which automatically detects five software antipatterns capturing a variety of performance issues in Java-based applications.
+Our approach is applied to five real-world case studies from different domains. As empirical evidence, we show that solving one of the detected antipatterns improves the system performance up to 50%.
+
+
+
+## Available Files
+- *JPAD-0.0.1.jar* is the tool developed for this paper. It can be executed using the following command: <tt>java -jar JPAD-0.0.1.jar</tt>
+- Reading files and usage statistics of all experiments (i.e., loads, durations, and systems) located in the directories: <tt>\<load\>-\<duration\>/\<system\>/</tt>, where <tt>\<load\></tt>=(25, 50, 75, 100), <tt>\<duration\></tt>=(3, 6, 12), and <tt>\<system\></tt>=(petclinic, broadleaf, webgoat, ts-security-service, openmrs). The following files can be retrieved:
+	- <tt>Call-tree---All-threads-merged.xml</tt> shows a top-down call tree of all application threads merged together into a single tree.
+	- <tt>Call-tree---By-thread.xml</tt> shows an individual top-down call tree for each application thread.
+	- <tt>Chart--CPU-Usage.csv</tt> measures the percentage of CPU used during the execution of the application.
+	- <tt>Chart--Heap-Memory.csv</tt> measures the percentage of memory used during the execution of the application.
+	- <tt>CPU-hot-spots.xml</tt> collects methods which spend the longest time on the CPU.
+	- <tt>Method-list--allocations.csv</tt>
+	- <tt>Method-list--CPU.csv</tt>
+	- <tt>Monitor-usage-statistics.xml</tt>
+- The <tt>refactored/</tt> folder contains the reading files of refactored systems (i.e., OpenMRS).
+- The <tt>locust_loads/</tt> folder contains the python files used to run the load tests.
+- The <tt>analysis/</tt> folder contains three files:
+	- <tt>original.csv</tt> provides results obtained by running JPAD with the original systems (i.e., PetClinic, Broadleaf, WebGoat, ts-security-service, OpenMRS)
+	- <tt>refactored.csv</tt> provides results obtained by running JPAD with the refactored systems (i.e., OpenMRS)
+	- <tt>analysis.ipynb</tt> is an iPython Notebook that allows analyzing the two CSV files contained in this directory and generating some figures.
+
+
+
+## Prerequisites
+- To run JPAD only JDK11+ is required.
+- To profile each system while running load tests, it is also necessary to download:
+	- [YourKit](https://www.yourkit.com/java/profiler/features/)
+	- [Locust](https://locust.io/)
+	- The five Java-based applications analyzed in the paper:
+		- [PetClinic](https://github.com/spring-projects/spring-petclinic)
+		- [Broadleaf](https://github.com/BroadleafCommerce/DemoSite)
+		- [WebGoat](https://github.com/WebGoat/WebGoat)
+		- [TrainTicket](https://github.com/FudanSELab/train-ticket)
+		- [OpenMRS](https://github.com/openmrs/openmrs-core)
+
+
+
+## Run JPAD
+1) Start JPAD using the command: <tt>java -jar JPAD-0.0.1.jar</tt>.
+2) Use the first file picker to select a <tt>CPU-hot-spots.xml</tt> (provided with this replication package or profiled while running the experiments).
+3) Use the second file picker to select all the remaining reading files.
+4) Choose which software performance antipatterns must be detected and provide the required thresholds. Note that all threshold values are mandatory when the respective antipattern is selected.
+5) Press the <tt>Start Analysis</tt> button.
+
