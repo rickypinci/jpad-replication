@@ -41,7 +41,7 @@ A high-level view of the workflow of our approach is presented in the following.
 
 
 ## Prerequisites
-- [JDK 11 or older](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [JDK 11 (or later)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 - [JavaFX SDK](https://gluonhq.com/products/javafx/)
 <!--- To profile each system while running load tests, it is also necessary to download:-->
 <!--	- [YourKit](https://www.yourkit.com/java/profiler/features/)-->
