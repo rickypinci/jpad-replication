@@ -15,6 +15,10 @@ The goal of this manuscript is to automate the detection of performance problems
 Using software performance antipatterns, i.e., bad practices expressing both the problem and the solution with the purpose of identifying shortcomings and promptly fixing them, we develop a framework which automatically detects five software antipatterns capturing a variety of performance issues in Java-based applications.
 Our approach is applied to five real-world case studies from different domains. As empirical evidence, we show that solving one of the detected antipatterns improves the system performance up to 50%.
 
+A high-level view of the workflow of our approach is presented in the following. The content of this replication package is highlighted by the dashed rectangle.
+
+![High-level workflow of our approach](https://raw.githubusercontent.com/rickypinci/jpad-replication/main/resources/pad-workflow.png?token=ABXLF7HT3GT2ZJGUHCQKARTBAEA2W)
+
 
 
 ## Available Files
