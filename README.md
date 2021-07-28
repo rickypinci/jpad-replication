@@ -33,7 +33,6 @@ A high-level view of the workflow of our approach is presented in the following.
 	- <tt>Method-list--allocations.csv</tt>
 	- <tt>Method-list--CPU.csv</tt>
 	- <tt>Monitor-usage-statistics.xml</tt>
-- The <tt>locust_loads/</tt> folder contains the python files used to run the load tests.
 - The <tt>analysis/</tt> folder contains three files:
 	- <tt>original.csv</tt> provides results obtained by running JPAD with the original systems (i.e., PetClinic, Broadleaf, WebGoat, ts-security-service, OpenMRS)
 	- <tt>refactored.csv</tt> provides results obtained by running JPAD with the refactored systems (i.e., OpenMRS)
