@@ -1,6 +1,6 @@
 # Replication Package: Automated Detection of Software Performance Antipatterns in Java-based Applications
 
-This is a replication package for the paper titled "Automated Detection of Software Performance Antipatterns in Java-based Applications" and submitted to IEEE Transactions on Software Engineering (TSE) for revision.
+This is a replication package for the paper titled "Automated Detection of Software Performance Antipatterns in Java-based Applications" and submitted for revision.
 
 
 
