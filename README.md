@@ -19,7 +19,8 @@ Our approach is applied to five real-world case studies from different domains. 
 
 ## Available Files
 - *JPAD-0.0.1.jar* is the tool developed for this paper. It can be executed using the following command: <tt>java -jar JPAD-0.0.1.jar</tt>
-- Reading files and usage statistics of all experiments (i.e., loads, durations, and systems) located in the directories: <tt>\<load\>-\<duration\>/\<system\>/</tt>, where <tt>\<load\></tt>=(25, 50, 75, 100), <tt>\<duration\></tt>=(3, 6, 12), and <tt>\<system\></tt>=(petclinic, broadleaf, webgoat, ts-security-service, openmrs). The following files can be retrieved:
+- *reading_files.zip* contains all the reading files and usage statistics obtained by profiling the five Java applications. After extracting the files, two folders are available: <tt>original/</tt> contains the data profiled from original systems, while <tt>refactored/</tt> contains the reading files of refactored systems (i.e., OpenMRS)
+- From <tt>original/</tt> and <tt>refactored/</tt> folders, reading files can be retrieved at <tt>\<load\>-\<duration\>/\<system\>/</tt>, where <tt>\<load\></tt>=(25, 50, 75, 100), <tt>\<duration\></tt>=(3, 6, 12), and <tt>\<system\></tt>=(petclinic, broadleaf, webgoat, ts-security-service, openmrs). Available files are:
 	- <tt>Call-tree---All-threads-merged.xml</tt> shows a top-down call tree of all application threads merged together into a single tree.
 	- <tt>Call-tree---By-thread.xml</tt> shows an individual top-down call tree for each application thread.
 	- <tt>Chart--CPU-Usage.csv</tt> measures the percentage of CPU used during the execution of the application.
@@ -28,7 +29,6 @@ Our approach is applied to five real-world case studies from different domains. 
 	- <tt>Method-list--allocations.csv</tt>
 	- <tt>Method-list--CPU.csv</tt>
 	- <tt>Monitor-usage-statistics.xml</tt>
-- The <tt>refactored/</tt> folder contains the reading files of refactored systems (i.e., OpenMRS).
 - The <tt>locust_loads/</tt> folder contains the python files used to run the load tests.
 - The <tt>analysis/</tt> folder contains three files:
 	- <tt>original.csv</tt> provides results obtained by running JPAD with the original systems (i.e., PetClinic, Broadleaf, WebGoat, ts-security-service, OpenMRS)
