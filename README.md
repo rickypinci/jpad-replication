@@ -22,7 +22,7 @@ A high-level view of the workflow of our approach is presented in the following.
 
 
 ## Available Files
-- *JPAD-0.0.1.jar* is the tool developed for this paper. It can be executed using the following command: <tt>java -jar JPAD-0.0.1.jar</tt>
+- *JPAD-0.0.1.jar* is the tool developed for this paper. See [Run JPAD](## Run JPAD) for instructions on how to run JPAD.
 - *reading_files.zip* contains all the reading files and usage statistics obtained by profiling the five Java applications. After extracting the files, two folders are available: <tt>original/</tt> contains the data profiled from original systems, while <tt>refactored/</tt> contains the reading files of refactored systems (i.e., OpenMRS)
 - From <tt>original/</tt> and <tt>refactored/</tt> folders, reading files can be retrieved at <tt>\<load\>-\<duration\>/\<system\>/</tt>, where <tt>\<load\></tt>=(25, 50, 75, 100), <tt>\<duration\></tt>=(3, 6, 12), and <tt>\<system\></tt>=(petclinic, broadleaf, webgoat, ts-security-service, openmrs). Available files are:
 	- <tt>Call-tree---All-threads-merged.xml</tt> shows a top-down call tree of all application threads merged together into a single tree.
@@ -41,21 +41,22 @@ A high-level view of the workflow of our approach is presented in the following.
 
 
 ## Prerequisites
-- To run JPAD only JDK11+ is required.
-- To profile each system while running load tests, it is also necessary to download:
-	- [YourKit](https://www.yourkit.com/java/profiler/features/)
-	- [Locust](https://locust.io/)
-	- The five Java-based applications analyzed in the paper:
-		- [PetClinic](https://github.com/spring-projects/spring-petclinic)
-		- [Broadleaf](https://github.com/BroadleafCommerce/DemoSite)
-		- [WebGoat](https://github.com/WebGoat/WebGoat)
-		- [TrainTicket](https://github.com/FudanSELab/train-ticket)
-		- [OpenMRS](https://github.com/openmrs/openmrs-core)
+- [JDK 11 or older](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [JavaFX SDK](https://gluonhq.com/products/javafx/)
+<!--- To profile each system while running load tests, it is also necessary to download:-->
+<!--	- [YourKit](https://www.yourkit.com/java/profiler/features/)-->
+<!--	- [Locust](https://locust.io/)-->
+<!--	- The five Java-based applications analyzed in the paper:-->
+<!--		- [PetClinic](https://github.com/spring-projects/spring-petclinic)-->
+<!--		- [Broadleaf](https://github.com/BroadleafCommerce/DemoSite)-->
+<!--		- [WebGoat](https://github.com/WebGoat/WebGoat)-->
+<!--		- [TrainTicket](https://github.com/FudanSELab/train-ticket)-->
+<!--		- [OpenMRS](https://github.com/openmrs/openmrs-core)-->
 
 
 
 ## Run JPAD
-1) Start JPAD using the command: <tt>java -jar JPAD-0.0.1.jar</tt>.
+1) Start JPAD using the command: <tt>java --module-path /\<path\>/\<to\>/openjfx/lib/ --add-modules javafx.controls,javafx.fxml -jar JPAD-0.0.1.jar</tt>.
 2) Use the first file picker to select a <tt>CPU-hot-spots.xml</tt>.
 3) Use the second file picker to select all the remaining reading files.
 4) Choose which software performance antipatterns must be detected and provide the required thresholds. Note that all threshold values are mandatory when the respective antipattern is selected.
