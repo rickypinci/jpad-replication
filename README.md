@@ -17,7 +17,7 @@ Our approach is applied to five real-world case studies from different domains. 
 
 A high-level view of the workflow of our approach is presented in the following. The content of this replication package is highlighted by the dashed rectangle.
 
-![High-level workflow of our approach](https://raw.githubusercontent.com/rickypinci/jpad-replication/main/resources/pad-workflow.png?token=ABXLF7HT3GT2ZJGUHCQKARTBAEA2W)
+![High-level workflow of our approach](https://github.com/rickypinci/jpad-replication/blob/main/resources/pad-workflow.png?raw=true)
 
 
 
