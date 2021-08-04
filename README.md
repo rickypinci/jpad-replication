@@ -42,7 +42,7 @@ A high-level view of the workflow of our approach is presented in the following.
 
 ## Prerequisites
 - [JDK 11 (or later)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-- [JavaFX SDK](https://gluonhq.com/products/javafx/)
+<!--- [JavaFX SDK](https://gluonhq.com/products/javafx/)-->
 <!--- To profile each system while running load tests, it is also necessary to download:-->
 <!--	- [YourKit](https://www.yourkit.com/java/profiler/features/)-->
 <!--	- [Locust](https://locust.io/)-->
@@ -56,7 +56,7 @@ A high-level view of the workflow of our approach is presented in the following.
 
 
 ## Run JPAD
-1) Start JPAD using the command: <tt>java --module-path /\<path\>/\<to\>/openjfx/lib/ --add-modules javafx.controls,javafx.fxml -jar JPAD-0.0.1.jar</tt>.
+1) Start JPAD double-clicking on the icon or using the command: <tt>java -jar JPAD-0.0.1.jar</tt>.
 2) Use the first file picker to select a <tt>CPU-hot-spots.xml</tt>.
 3) Use the second file picker to select all the remaining reading files.
 4) Choose which software performance antipatterns must be detected and provide the required thresholds. Note that all threshold values are mandatory when the respective antipattern is selected.
