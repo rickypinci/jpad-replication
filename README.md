@@ -56,7 +56,7 @@ A high-level view of the workflow of our approach is presented in the following.
 
 
 ## Run JPAD
-1) Start JPAD double-clicking on the icon or using the command: <tt>java -jar JPAD-0.0.1.jar</tt>.
+1) Start JPAD double-clicking on the <tt>JPAD-0.0.1.jar</tt> file or using the command: <tt>java -jar JPAD-0.0.1.jar</tt>.
 2) Use the first file picker to select a <tt>CPU-hot-spots.xml</tt>.
 3) Use the second file picker to select all the remaining reading files.
 4) Choose which software performance antipatterns must be detected and provide the required thresholds. Note that all threshold values are mandatory when the respective antipattern is selected.
