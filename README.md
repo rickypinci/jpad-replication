@@ -22,9 +22,9 @@ A high-level view of the workflow of our approach is presented in the following.
 
 
 ## Available Files
-- *JPAD-0.0.1.jar* is the tool developed for this paper. See [Run JPAD](#run-jpad) for instructions on how to run JPAD.
+- <tt>JPAD-0.0.1.jar</tt> is the tool developed for this paper. See [Run JPAD](#run-jpad) for instructions on how to run JPAD.
 - *reading_files.zip* contains all the reading files and usage statistics obtained by profiling the five Java applications. After extracting the files, two folders are available: <tt>original/</tt> contains the data profiled from original systems, while <tt>refactored/</tt> contains the reading files of refactored systems (i.e., OpenMRS)
-- From <tt>original/</tt> and <tt>refactored/</tt> folders, reading files can be retrieved at <tt>\<load\>-\<duration\>/\<system\>/</tt>, where <tt>\<load\></tt>=(25, 50, 75, 100), <tt>\<duration\></tt>=(3, 6, 12), and <tt>\<system\></tt>=(petclinic, broadleaf, webgoat, ts-security-service, openmrs). Available files are:
+- From <tt>original/</tt> and <tt>refactored/</tt> folders, reading files can be retrieved at <tt>\<load\>-\<duration\>/\<system\>/</tt>, where <tt>\<load\></tt>=(25, 50, 75, 100), <tt>\<duration\></tt>=(3, 6, 12), and <tt>\<system\></tt>=(petclinic, broadleaf, webgoat, TrainTicket, openmrs). Available files are:
 	- <tt>Call-tree---All-threads-merged.xml</tt> shows a top-down call tree of all application threads merged together into a single tree.
 	- <tt>Call-tree---By-thread.xml</tt> shows an individual top-down call tree for each application thread.
 	- <tt>Chart--CPU-Usage.csv</tt> measures the percentage of CPU used during the execution of the application.
@@ -34,7 +34,7 @@ A high-level view of the workflow of our approach is presented in the following.
 	- <tt>Method-list--CPU.csv</tt>
 	- <tt>Monitor-usage-statistics.xml</tt>
 - The <tt>analysis/</tt> folder contains three files:
-	- <tt>original.csv</tt> provides results obtained by running JPAD with the original systems (i.e., PetClinic, Broadleaf, WebGoat, ts-security-service, OpenMRS)
+	- <tt>original.csv</tt> provides results obtained by running JPAD with the original systems (i.e., PetClinic, Broadleaf, WebGoat, TrainTicket, OpenMRS)
 	- <tt>refactored.csv</tt> provides results obtained by running JPAD with the refactored systems (i.e., OpenMRS)
 	- <tt>analysis.ipynb</tt> is an iPython Notebook that allows analyzing the two CSV files contained in this directory and generating some figures.
 
