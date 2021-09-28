@@ -63,5 +63,5 @@ A high-level view of the workflow of our approach is presented in the following.
 5) Press the <tt>Start Analysis</tt> button.
 
 ## Supported By:
-- ![YourKit](resources/yklogo.png)
+[![YourKit](resources/yklogo.png)](https://www.yourkit.com)
 
