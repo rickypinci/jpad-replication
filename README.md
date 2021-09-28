@@ -62,3 +62,6 @@ A high-level view of the workflow of our approach is presented in the following.
 4) Choose which software performance antipatterns must be detected and provide the required thresholds. Note that all threshold values are mandatory when the respective antipattern is selected.
 5) Press the <tt>Start Analysis</tt> button.
 
+## Supported By:
+- ![YourKit](resources/yklogo.png)
+
