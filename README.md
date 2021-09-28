@@ -23,7 +23,7 @@ A high-level view of the workflow of our approach is presented in the following.
 
 ## Available Files
 - <tt>JPAD-0.0.1.jar</tt> is the tool developed for this paper. See [Run JPAD](#run-jpad) for instructions on how to run JPAD.
-- *reading_files.zip* contains all the reading files and usage statistics obtained by profiling the five Java applications. After extracting the files, two folders are available: <tt>original/</tt> contains the data profiled from original systems, while <tt>refactored/</tt> contains the reading files of refactored systems (i.e., OpenMRS)
+- *reading_files.zip* contains all the reading files and usage statistics obtained by profiling the five Java applications using [YourKit Java Profiler](https://www.yourkit.com/java/profiler/). After extracting the files, two folders are available: <tt>original/</tt> contains the data profiled from original systems, while <tt>refactored/</tt> contains the reading files of refactored systems (i.e., OpenMRS)
 - From <tt>original/</tt> and <tt>refactored/</tt> folders, reading files can be retrieved at <tt>\<load\>-\<duration\>/\<system\>/</tt>, where <tt>\<load\></tt>=(25, 50, 75, 100), <tt>\<duration\></tt>=(3, 6, 12), and <tt>\<system\></tt>=(petclinic, broadleaf, webgoat, trainticket, openmrs). Available files are:
 	- <tt>Call-tree---All-threads-merged.xml</tt> shows a top-down call tree of all application threads merged together into a single tree.
 	- <tt>Call-tree---By-thread.xml</tt> shows an individual top-down call tree for each application thread.
