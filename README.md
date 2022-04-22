@@ -38,7 +38,7 @@ A high-level view of the workflow of our approach is presented in the following.
 - The <tt>comparison/</tt> folder contains same reading files (alredy described at the previous point) for Hadoop and Cassandra. These reading files can be retrieved at <tt>\<system\>/\<load\>-\<duration\>/\<commit\>/</tt>, where <tt>\<system\></tt>=(cassandra, hadoop), <tt>\<load\></tt>=(1, 10, 100, 500, 1000), <tt>\<duration\></tt>=(3, 6, 12), <tt>\<commit\></tt>=(88d2ac4, f93e6e3) for Cassandra and <tt>\<commit\></tt>=(7af5d6b, 308d63f, 528b809, 738d1a2, decf8a6, e914220, ff8378) for Hadoop.
 - From <tt>original/</tt>, <tt>refactored/</tt>, <tt>comparison/cassandra</tt>, and <tt>comparison/hadoop</tt> folders it is possible to run the <tt>checkProfilingLength.py</tt> script which prints the profiling time of each configuration.
 - The <tt>accuracy/</tt> folder contains three files:
-	- <tt>data/accuracy.csv</tt> contains data to compute the accuracy of JPAD.
+	- <tt>data/accuracy.csv</tt> (to be extracted from <tt>data/accuracy.zip</tt>) contains data to compute the accuracy of JPAD.
 	- <tt>algorithm_accuracy.ipynb</tt> is an iPython Notebook that prints a LaTeX table reporting about the precision, recall, and F1-score of the three applications (i.e., WebGoat, TrainTicket, OpenMRS).
 	- <tt>results/acc_table.tex</tt> is the LaTeX code to print Table 9.
 - The <tt>analysis/</tt> folder contains three files:
