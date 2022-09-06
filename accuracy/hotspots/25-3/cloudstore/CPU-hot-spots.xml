@@ -1,0 +1,30 @@
+<view description="CPU hot spots">
+  <node method="org.thymeleaf.dom.NestableNode.doAdditionalProcess(Arguments, boolean, boolean) NestableNode.java" time_ms="1164269"/>
+  <node method="org.thymeleaf.dom.Node.processNode(Arguments, boolean, boolean) Node.java" time_ms="1164269"/>
+  <node method="org.thymeleaf.spring3.expression.SpelVariableExpressionEvaluator.evaluate(Configuration, IProcessingContext, String, StandardExpressionExecutionContext, boolean) SpelVariableExpressionEvaluator.java" time_ms="351561"/>
+  <node method="java.util.HashMap.put(Object, Object) HashMap.java" time_ms="299097"/>
+  <node method="org.thymeleaf.spring3.expression.SpelVariableExpressionEvaluator.computeContextVariables(Configuration, IProcessingContext) SpelVariableExpressionEvaluator.java" time_ms="270996"/>
+  <node method="org.thymeleaf.Arguments.addLocalVariables(Map) Arguments.java" time_ms="252467"/>
+  <node method="java.util.AbstractCollection.addAll(Collection) AbstractCollection.java" time_ms="237127"/>
+  <node method="org.apache.catalina.connector.RequestFacade.getAttributeNames() RequestFacade.java" time_ms="231678"/>
+  <node method="org.thymeleaf.processor.attr.AbstractSingleAttributeModifierAttrProcessor.getModifiedAttributeValues(Arguments, Element, String) AbstractSingleAttributeModifierAttrProcessor.java" time_ms="224355"/>
+  <node method="java.util.HashSet.add(Object) HashSet.java" time_ms="222087"/>
+  <node method="org.thymeleaf.processor.attr.AbstractTextChildModifierAttrProcessor.getModifiedChildren(Arguments, Element, String) AbstractTextChildModifierAttrProcessor.java" time_ms="214417"/>
+  <node method="org.thymeleaf.context.AbstractProcessingContext.&lt;init&gt;(IContext, Map, Object, boolean) AbstractProcessingContext.java" time_ms="207692"/>
+  <node method="org.thymeleaf.Configuration.computeProcessorsForNode(Node) Configuration.java" time_ms="192741"/>
+  <node method="org.thymeleaf.standard.expression.LinkExpression.executeLink(Configuration, IProcessingContext, LinkExpression, IStandardVariableExpressionEvaluator, StandardExpressionExecutionContext) LinkExpression.java" time_ms="166600"/>
+  <node method="org.thymeleaf.context.AbstractProcessingContext.createEvaluationRoot() AbstractProcessingContext.java" time_ms="161343"/>
+  <node method="org.thymeleaf.standard.expression.AdditionExpression.executeAddition(Configuration, IProcessingContext, AdditionExpression, IStandardVariableExpressionEvaluator, StandardExpressionExecutionContext) AdditionExpression.java" time_ms="155278"/>
+  <node method="com.mysql.jdbc.ResultSetImpl.getInt(String) ResultSetImpl.java" time_ms="132005"/>
+  <node method="org.thymeleaf.Configuration.getApplicableNonSpecificProcessorsToNodeClass(Class) Configuration.java" time_ms="123572"/>
+  <node method="org.thymeleaf.expression.ExpressionEvaluatorObjects.computeEvaluationObjects(IProcessingContext) ExpressionEvaluatorObjects.java" time_ms="118550"/>
+  <node method="org.thymeleaf.expression.ExpressionEvaluatorObjects.computeEvaluationObjectsForProcessingContext(IProcessingContext) ExpressionEvaluatorObjects.java" time_ms="88971"/>
+  <node method="org.thymeleaf.dom.Node.cloneNodeInternals(Node, NestableNode, boolean) Node.java" time_ms="88825"/>
+  <node method="org.thymeleaf.dom.NestableNode.doCloneNodeInternals(Node, NestableNode, boolean) NestableNode.java" time_ms="85245"/>
+  <node method="org.thymeleaf.context.WebVariablesMap.getAttributeMap(HttpServletRequest) WebVariablesMap.java" time_ms="73741"/>
+  <node method="java.util.HashMap.&lt;init&gt;(Map) HashMap.java" time_ms="70332"/>
+  <node method="org.thymeleaf.dom.Node.unsafeSetNodeLocalVariables(Map) Node.java" time_ms="66959"/>
+  <node method="java.lang.StringBuilder.toString() StringBuilder.java" time_ms="62467"/>
+  <node method="com.mysql.jdbc.ConnectionImpl.commit() ConnectionImpl.java" time_ms="59794"/>
+  <node method="java.util.HashSet.iterator() HashSet.java" time_ms="59529"/>
+</view>

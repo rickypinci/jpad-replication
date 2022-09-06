@@ -1,0 +1,8 @@
+<view description="CPU hot spots">
+  <node method="com.mysql.jdbc.PreparedStatement.executeQuery() PreparedStatement.java" time_ms="1816107"/>
+  <node method="org.apache.log4j.helpers.FileWatchdog.run() FileWatchdog.java" time_ms="361365"/>
+  <node method="org.apache.activemq.store.kahadb.MessageDatabase$3.run() MessageDatabase.java" time_ms="358799"/>
+  <node method="org.openmrs.BaseOpenmrsObject.&lt;init&gt;() BaseOpenmrsObject.java" time_ms="72656"/>
+  <node method="com.mysql.jdbc.ConnectionImpl.setAutoCommit(boolean) ConnectionImpl.java" time_ms="68902"/>
+  <node method="java.util.UUID.randomUUID()" time_ms="64640"/>
+</view>

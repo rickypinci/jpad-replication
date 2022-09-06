@@ -1,0 +1,31 @@
+<view description="CPU hot spots">
+  <node method="org.thymeleaf.dom.NestableNode.doAdditionalProcess(Arguments, boolean, boolean) NestableNode.java" time_ms="7769860"/>
+  <node method="org.thymeleaf.dom.Node.processNode(Arguments, boolean, boolean) Node.java" time_ms="7769860"/>
+  <node method="org.thymeleaf.spring3.expression.SpelVariableExpressionEvaluator.evaluate(Configuration, IProcessingContext, String, StandardExpressionExecutionContext, boolean) SpelVariableExpressionEvaluator.java" time_ms="2359775"/>
+  <node method="java.util.HashMap.put(Object, Object) HashMap.java" time_ms="1976973"/>
+  <node method="org.thymeleaf.spring3.expression.SpelVariableExpressionEvaluator.computeContextVariables(Configuration, IProcessingContext) SpelVariableExpressionEvaluator.java" time_ms="1807834"/>
+  <node method="org.thymeleaf.Arguments.addLocalVariables(Map) Arguments.java" time_ms="1646413"/>
+  <node method="java.util.AbstractCollection.addAll(Collection) AbstractCollection.java" time_ms="1565508"/>
+  <node method="org.apache.catalina.connector.RequestFacade.getAttributeNames() RequestFacade.java" time_ms="1529929"/>
+  <node method="org.thymeleaf.processor.attr.AbstractSingleAttributeModifierAttrProcessor.getModifiedAttributeValues(Arguments, Element, String) AbstractSingleAttributeModifierAttrProcessor.java" time_ms="1512042"/>
+  <node method="java.util.HashSet.add(Object) HashSet.java" time_ms="1461704"/>
+  <node method="org.thymeleaf.processor.attr.AbstractTextChildModifierAttrProcessor.getModifiedChildren(Arguments, Element, String) AbstractTextChildModifierAttrProcessor.java" time_ms="1433539"/>
+  <node method="org.thymeleaf.context.AbstractProcessingContext.&lt;init&gt;(IContext, Map, Object, boolean) AbstractProcessingContext.java" time_ms="1366928"/>
+  <node method="org.thymeleaf.Configuration.computeProcessorsForNode(Node) Configuration.java" time_ms="1290904"/>
+  <node method="org.thymeleaf.standard.expression.LinkExpression.executeLink(Configuration, IProcessingContext, LinkExpression, IStandardVariableExpressionEvaluator, StandardExpressionExecutionContext) LinkExpression.java" time_ms="1122351"/>
+  <node method="org.thymeleaf.context.AbstractProcessingContext.createEvaluationRoot() AbstractProcessingContext.java" time_ms="1061657"/>
+  <node method="org.thymeleaf.standard.expression.AdditionExpression.executeAddition(Configuration, IProcessingContext, AdditionExpression, IStandardVariableExpressionEvaluator, StandardExpressionExecutionContext) AdditionExpression.java" time_ms="1038761"/>
+  <node method="com.mysql.jdbc.ResultSetImpl.getInt(String) ResultSetImpl.java" time_ms="885179"/>
+  <node method="org.thymeleaf.Configuration.getApplicableNonSpecificProcessorsToNodeClass(Class) Configuration.java" time_ms="831841"/>
+  <node method="org.thymeleaf.expression.ExpressionEvaluatorObjects.computeEvaluationObjects(IProcessingContext) ExpressionEvaluatorObjects.java" time_ms="793169"/>
+  <node method="org.thymeleaf.dom.Node.cloneNodeInternals(Node, NestableNode, boolean) Node.java" time_ms="602753"/>
+  <node method="org.thymeleaf.expression.ExpressionEvaluatorObjects.computeEvaluationObjectsForProcessingContext(IProcessingContext) ExpressionEvaluatorObjects.java" time_ms="590754"/>
+  <node method="org.thymeleaf.dom.NestableNode.doCloneNodeInternals(Node, NestableNode, boolean) NestableNode.java" time_ms="577197"/>
+  <node method="com.mysql.jdbc.PreparedStatement.executeQuery() PreparedStatement.java" time_ms="560968"/>
+  <node method="org.thymeleaf.context.WebVariablesMap.getAttributeMap(HttpServletRequest) WebVariablesMap.java" time_ms="497410"/>
+  <node method="java.util.HashMap.&lt;init&gt;(Map) HashMap.java" time_ms="471718"/>
+  <node method="org.thymeleaf.dom.Node.unsafeSetNodeLocalVariables(Map) Node.java" time_ms="446024"/>
+  <node method="java.lang.StringBuilder.toString() StringBuilder.java" time_ms="424487"/>
+  <node method="com.mysql.jdbc.ConnectionImpl.commit() ConnectionImpl.java" time_ms="398564"/>
+  <node method="java.util.HashSet.iterator() HashSet.java" time_ms="396565"/>
+</view>

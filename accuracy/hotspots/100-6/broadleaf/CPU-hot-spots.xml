@@ -1,0 +1,12 @@
+<view description="CPU hot spots">
+  <node method="org.thymeleaf.engine.OpenElementTag.beHandled(ITemplateHandler) OpenElementTag.java" time_ms="482666"/>
+  <node method="org.thymeleaf.engine.Model.process(ITemplateHandler) Model.java" time_ms="475906"/>
+  <node method="org.springframework.boot.web.embedded.tomcat.TomcatWebServer$1.run() TomcatWebServer.java" time_ms="362650"/>
+  <node method="org.thymeleaf.standard.expression.Expression.execute(IExpressionContext, StandardExpressionExecutionContext) Expression.java" time_ms="194696"/>
+  <node method="org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(IExpressionContext, IStandardVariableExpression, StandardExpressionExecutionContext) SPELVariableExpressionEvaluator.java" time_ms="186446"/>
+  <node method="org.attoparser.MarkupParser.parseBuffer(char[], int, int, IMarkupHandler, ParseStatus) MarkupParser.java" time_ms="37828"/>
+  <node method="org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(String) WebappClassLoaderBase.java" time_ms="36328"/>
+  <node method="com.sun.proxy.$Proxy185.find(Class, Object)" time_ms="30985"/>
+  <node method="java.util.AbstractSet.equals(Object) AbstractSet.java" time_ms="29250"/>
+  <node method="org.apache.solr.client.solrj.SolrClient.query(String, SolrParams, SolrRequest$METHOD) SolrClient.java" time_ms="28074"/>
+</view>

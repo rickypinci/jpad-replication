@@ -1,0 +1,17 @@
+<view description="CPU hot spots">
+  <node method="security.service.SecurityServiceImpl.check(String, HttpHeaders) SecurityServiceImpl.java" time_ms="1377576"/>
+  <node method="com.fasterxml.jackson.databind.ObjectMapper.readValue(String, Class) ObjectMapper.java" time_ms="452625"/>
+  <node method="org.springframework.web.client.RestTemplate.exchange(String, HttpMethod, HttpEntity, ParameterizedTypeReference, Object[]) RestTemplate.java" time_ms="426374"/>
+  <node method="org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer$2.run() TomcatEmbeddedServletContainer.java" time_ms="368633"/>
+  <node method="java.lang.String.substring(int, int) String.java" time_ms="251880"/>
+  <node method="org.bson.util.CopyOnWriteMap$Hash.copy(Map) CopyOnWriteMap.java" time_ms="219023"/>
+  <node method="java.util.HashMap.put(Object, Object) HashMap.java" time_ms="198041"/>
+  <node method="java.util.HashMap.&lt;init&gt;(Map) HashMap.java" time_ms="188428"/>
+  <node method="java.lang.StringBuilder.toString() StringBuilder.java" time_ms="176824"/>
+  <node method="org.bson.codecs.configuration.ProvidersCodecRegistry.get(Class) ProvidersCodecRegistry.java" time_ms="118447"/>
+  <node method="org.bson.codecs.BsonTypeCodecMap.&lt;init&gt;(BsonTypeClassMap, CodecRegistry) BsonTypeCodecMap.java" time_ms="115043"/>
+  <node method="java.lang.StringBuilder.&lt;init&gt;() StringBuilder.java" time_ms="80288"/>
+  <node method="org.bson.codecs.BsonDocumentCodec.&lt;init&gt;(CodecRegistry) BsonDocumentCodec.java" time_ms="79465"/>
+  <node method="java.util.Collections$UnmodifiableCollection.iterator() Collections.java" time_ms="71476"/>
+  <node method="org.bson.codecs.BsonDocumentCodec.decode(BsonReader, DecoderContext) BsonDocumentCodec.java" time_ms="69369"/>
+</view>

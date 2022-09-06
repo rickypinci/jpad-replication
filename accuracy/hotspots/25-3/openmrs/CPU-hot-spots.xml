@@ -1,0 +1,8 @@
+<view description="CPU hot spots">
+  <node method="org.openmrs.module.owa.filter.OwaFilter.doFilter(ServletRequest, ServletResponse, FilterChain) OwaFilter.java" time_ms="518356"/>
+  <node method="org.openmrs.module.web.filter.ForcePasswordChangeFilter.doFilter(ServletRequest, ServletResponse, FilterChain) ForcePasswordChangeFilter.java" time_ms="512628"/>
+  <node method="com.mysql.jdbc.PreparedStatement.executeQuery() PreparedStatement.java" time_ms="326206"/>
+  <node method="org.apache.log4j.helpers.FileWatchdog.run() FileWatchdog.java" time_ms="178732"/>
+  <node method="org.apache.activemq.store.kahadb.MessageDatabase$3.run() MessageDatabase.java" time_ms="178224"/>
+  <node method="org.openmrs.module.webservices.rest.web.resource.impl.DelegatingCrudResource.update(String, SimpleObject, RequestContext) DelegatingCrudResource.java" time_ms="15847"/>
+</view>

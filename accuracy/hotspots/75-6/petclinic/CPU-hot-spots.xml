@@ -1,0 +1,11 @@
+<view description="CPU hot spots">
+  <node method="org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(IEngineConfiguration, String, String, Set, ITemplateResource, int, int, TemplateMode, boolean, ITemplateHandler) AbstractMarkupTemplateParser.java" time_ms="1629373"/>
+  <node method="org.attoparser.ParsingElementMarkupUtil.parseOpenElement(char[], int, int, int, int, IMarkupHandler) ParsingElementMarkupUtil.java" time_ms="1596483"/>
+  <node method="org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(char[], int, int, int, int) TemplateHandlerAdapterMarkupHandler.java" time_ms="1591264"/>
+  <node method="org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(IOpenElementTag) ProcessorTemplateHandler.java" time_ms="1587795"/>
+  <node method="org.springframework.boot.web.embedded.tomcat.TomcatWebServer$1.run() TomcatWebServer.java" time_ms="385321"/>
+  <node method="org.springframework.core.io.ClassPathResource.getInputStream() ClassPathResource.java" time_ms="153546"/>
+  <node method="org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(IExpressionContext, IStandardVariableExpression, StandardExpressionExecutionContext) SPELVariableExpressionEvaluator.java" time_ms="131531"/>
+  <node method="java.lang.StringBuilder.toString() StringBuilder.java" time_ms="112765"/>
+  <node method="org.hsqldb.jdbc.JDBCConnection.prepareStatement(String)" time_ms="83000"/>
+</view>

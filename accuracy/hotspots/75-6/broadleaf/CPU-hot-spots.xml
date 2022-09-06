@@ -1,0 +1,13 @@
+<view description="CPU hot spots">
+  <node method="org.thymeleaf.engine.OpenElementTag.beHandled(ITemplateHandler) OpenElementTag.java" time_ms="483467"/>
+  <node method="org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(IOpenElementTag) ProcessorTemplateHandler.java" time_ms="483436"/>
+  <node method="org.thymeleaf.engine.Model.process(ITemplateHandler) Model.java" time_ms="476683"/>
+  <node method="org.springframework.boot.web.embedded.tomcat.TomcatWebServer$1.run() TomcatWebServer.java" time_ms="361070"/>
+  <node method="org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(IExpressionContext, IStandardVariableExpression, StandardExpressionExecutionContext) SPELVariableExpressionEvaluator.java" time_ms="173442"/>
+  <node method="org.broadleafcommerce.presentation.thymeleaf3.processor.BroadleafThymeleaf3CacheProcessor.replaceTagWithCache(String, IModel, ITemplateContext) BroadleafThymeleaf3CacheProcessor.java" time_ms="45796"/>
+  <node method="org.attoparser.MarkupParser.parseBuffer(char[], int, int, IMarkupHandler, ParseStatus) MarkupParser.java" time_ms="41640"/>
+  <node method="java.util.AbstractSet.equals(Object) AbstractSet.java" time_ms="34281"/>
+  <node method="org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(String) WebappClassLoaderBase.java" time_ms="29703"/>
+  <node method="org.apache.solr.client.solrj.SolrClient.query(String, SolrParams, SolrRequest$METHOD) SolrClient.java" time_ms="25010"/>
+  <node method="org.apache.commons.logging.impl.SLF4JLocationAwareLog.warn(Object) SLF4JLocationAwareLog.java" time_ms="24406"/>
+</view>

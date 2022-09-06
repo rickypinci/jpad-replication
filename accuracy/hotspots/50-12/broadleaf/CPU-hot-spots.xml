@@ -1,0 +1,8 @@
+<view description="CPU hot spots">
+  <node method="org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(IOpenElementTag) ProcessorTemplateHandler.java" time_ms="864835"/>
+  <node method="org.thymeleaf.engine.Model.process(ITemplateHandler) Model.java" time_ms="857125"/>
+  <node method="org.springframework.boot.web.embedded.tomcat.TomcatWebServer$1.run() TomcatWebServer.java" time_ms="724158"/>
+  <node method="org.attoparser.MarkupParser.parseBuffer(char[], int, int, IMarkupHandler, ParseStatus) MarkupParser.java" time_ms="90000"/>
+  <node method="java.util.AbstractSet.equals(Object) AbstractSet.java" time_ms="67000"/>
+  <node method="org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextPrintWriter.write(String) OnCommittedResponseWrapper.java" time_ms="38656"/>
+</view>

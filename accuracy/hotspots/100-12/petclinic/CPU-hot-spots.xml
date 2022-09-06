@@ -1,0 +1,10 @@
+<view description="CPU hot spots">
+  <node method="org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(IEngineConfiguration, String, String, Set, ITemplateResource, int, int, TemplateMode, boolean, ITemplateHandler) AbstractMarkupTemplateParser.java" time_ms="2926655"/>
+  <node method="org.attoparser.ParsingElementMarkupUtil.parseOpenElement(char[], int, int, int, int, IMarkupHandler) ParsingElementMarkupUtil.java" time_ms="2858811"/>
+  <node method="org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(char[], int, int, int, int) TemplateHandlerAdapterMarkupHandler.java" time_ms="2849905"/>
+  <node method="org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(IOpenElementTag) ProcessorTemplateHandler.java" time_ms="2843655"/>
+  <node method="org.springframework.boot.web.embedded.tomcat.TomcatWebServer$1.run() TomcatWebServer.java" time_ms="756353"/>
+  <node method="org.springframework.core.io.ClassPathResource.getInputStream() ClassPathResource.java" time_ms="330171"/>
+  <node method="org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(IExpressionContext, IStandardVariableExpression, StandardExpressionExecutionContext) SPELVariableExpressionEvaluator.java" time_ms="227218"/>
+  <node method="java.lang.StringBuilder.toString() StringBuilder.java" time_ms="194734"/>
+</view>

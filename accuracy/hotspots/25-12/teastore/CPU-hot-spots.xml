@@ -1,0 +1,23 @@
+<view description="CPU hot spots">
+  <node method="rx.observables.BlockingObservable.blockForSingle(Observable) BlockingObservable.java" time_ms="3346056"/>
+  <node method="rx.Observable.subscribe(Subscriber, Observable) Observable.java" time_ms="3338772"/>
+  <node method="rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(Observable) OperatorRetryWithPredicate.java" time_ms="3273080"/>
+  <node method="rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(Action0, long) TrampolineScheduler.java" time_ms="3271800"/>
+  <node method="rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call() OperatorRetryWithPredicate.java" time_ms="3268724"/>
+  <node method="rx.internal.operators.OnSubscribeConcatMap.call(Subscriber) OnSubscribeConcatMap.java" time_ms="3265772"/>
+  <node method="rx.internal.operators.OnSubscribeConcatMap$ConcatMapSubscriber.drain() OnSubscribeConcatMap.java" time_ms="3229890"/>
+  <node method="com.netflix.loadbalancer.reactive.LoadBalancerCommand$3$1.call(Server) LoadBalancerCommand.java" time_ms="3201334"/>
+  <node method="tools.descartes.teastore.registryclient.loadbalancers.ServiceLoadBalancerResult.fromRESTOperation(RESTClient, Function) ServiceLoadBalancerResult.java" time_ms="2859981"/>
+  <node method="org.glassfish.jersey.client.JerseyInvocation$Builder.post(Entity) JerseyInvocation.java" time_ms="722468"/>
+  <node method="org.glassfish.jersey.client.JerseyInvocation$Builder.get() JerseyInvocation.java" time_ms="664824"/>
+  <node method="org.glassfish.jersey.client.JerseyWebTarget.request(String[]) JerseyWebTarget.java" time_ms="590819"/>
+  <node method="tools.descartes.teastore.registryclient.rest.HttpWrapper.wrap(WebTarget) HttpWrapper.java" time_ms="462385"/>
+  <node method="jdk.internal.misc.InnocuousThread.run() InnocuousThread.java" time_ms="461472"/>
+  <node method="org.glassfish.jersey.client.JerseyInvocation$Builder.post(Entity, Class) JerseyInvocation.java" time_ms="431826"/>
+  <node method="org.glassfish.jersey.client.JerseyWebTarget.path(String) JerseyWebTarget.java" time_ms="332934"/>
+  <node method="org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(String, Class, PageContext, ProtectedFunctionMapper) PageContextImpl.java" time_ms="330566"/>
+  <node method="com.netflix.loadbalancer.LoadBalancerContext.getExecuteTracer() LoadBalancerContext.java" time_ms="327937"/>
+  <node method="com.netflix.servo.monitor.Monitors.newTimer(String, TimeUnit) Monitors.java" time_ms="323214"/>
+  <node method="com.netflix.servo.monitor.BasicTimer.&lt;init&gt;(MonitorConfig, TimeUnit, Clock) BasicTimer.java" time_ms="310778"/>
+  <node method="java.lang.StringBuilder.toString() StringBuilder.java" time_ms="215375"/>
+</view>

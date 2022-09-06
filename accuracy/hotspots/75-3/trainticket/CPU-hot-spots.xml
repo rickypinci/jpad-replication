@@ -1,0 +1,18 @@
+<view description="CPU hot spots">
+  <node method="security.service.SecurityServiceImpl.check(String, HttpHeaders) SecurityServiceImpl.java" time_ms="603768"/>
+  <node method="io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(String) DefaultJwtParser.java" time_ms="224098"/>
+  <node method="io.jsonwebtoken.impl.DefaultJwtParser.parse(String) DefaultJwtParser.java" time_ms="223874"/>
+  <node method="com.fasterxml.jackson.databind.ObjectMapper.readValue(String, Class) ObjectMapper.java" time_ms="207326"/>
+  <node method="org.springframework.web.client.RestTemplate.exchange(String, HttpMethod, HttpEntity, ParameterizedTypeReference, Object[]) RestTemplate.java" time_ms="186273"/>
+  <node method="org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer$2.run() TomcatEmbeddedServletContainer.java" time_ms="181545"/>
+  <node method="java.lang.String.substring(int, int) String.java" time_ms="113374"/>
+  <node method="org.bson.util.CopyOnWriteMap$Hash.copy(Map) CopyOnWriteMap.java" time_ms="96112"/>
+  <node method="java.util.HashMap.put(Object, Object) HashMap.java" time_ms="85663"/>
+  <node method="java.util.HashMap.&lt;init&gt;(Map) HashMap.java" time_ms="83608"/>
+  <node method="java.lang.StringBuilder.toString() StringBuilder.java" time_ms="80834"/>
+  <node method="org.bson.codecs.configuration.ProvidersCodecRegistry.get(Class) ProvidersCodecRegistry.java" time_ms="51302"/>
+  <node method="org.bson.codecs.BsonTypeCodecMap.&lt;init&gt;(BsonTypeClassMap, CodecRegistry) BsonTypeCodecMap.java" time_ms="50314"/>
+  <node method="java.lang.StringBuilder.&lt;init&gt;() StringBuilder.java" time_ms="35350"/>
+  <node method="org.bson.codecs.BsonDocumentCodec.&lt;init&gt;(CodecRegistry) BsonDocumentCodec.java" time_ms="34578"/>
+  <node method="java.util.Collections$UnmodifiableCollection.iterator() Collections.java" time_ms="32167"/>
+</view>

@@ -1,0 +1,28 @@
+<view description="CPU hot spots">
+  <node method="org.thymeleaf.spring5.view.ThymeleafView.renderFragment(Set, Map, HttpServletRequest, HttpServletResponse) ThymeleafView.java" time_ms="403822"/>
+  <node method="org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(IEngineConfiguration, String, String, Set, ITemplateResource, int, int, TemplateMode, boolean, ITemplateHandler) AbstractMarkupTemplateParser.java" time_ms="388666"/>
+  <node method="org.attoparser.MarkupParser.parse(Reader, IMarkupHandler) MarkupParser.java" time_ms="359337"/>
+  <node method="org.attoparser.MarkupParser.parseBuffer(char[], int, int, IMarkupHandler, ParseStatus) MarkupParser.java" time_ms="358155"/>
+  <node method="org.attoparser.ParsingElementMarkupUtil.parseOpenElement(char[], int, int, int, int, IMarkupHandler) ParsingElementMarkupUtil.java" time_ms="264796"/>
+  <node method="org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(char[], int, int, int, int) TemplateHandlerAdapterMarkupHandler.java" time_ms="237171"/>
+  <node method="org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(IOpenElementTag) ProcessorTemplateHandler.java" time_ms="222077"/>
+  <node method="org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(IExpressionContext, IStandardVariableExpression, StandardExpressionExecutionContext) SPELVariableExpressionEvaluator.java" time_ms="82984"/>
+  <node method="org.springframework.web.servlet.support.RequestContext.getBindStatus(String, boolean) RequestContext.java" time_ms="70640"/>
+  <node method="java.lang.ClassLoader.loadClass(String) ClassLoader.java" time_ms="49575"/>
+  <node method="java.lang.String.substring(int, int) String.java" time_ms="45546"/>
+  <node method="java.lang.Character.toString(char) Character.java" time_ms="45218"/>
+  <node method="java.lang.StringBuilder.toString() StringBuilder.java" time_ms="44328"/>
+  <node method="org.attoparser.ParsingElementMarkupUtil.parseStandaloneElement(char[], int, int, int, int, IMarkupHandler) ParsingElementMarkupUtil.java" time_ms="43890"/>
+  <node method="org.springframework.core.io.ClassPathResource.getInputStream() ClassPathResource.java" time_ms="40817"/>
+  <node method="java.lang.String.&lt;init&gt;(char[], int, int) String.java" time_ms="37203"/>
+  <node method="org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(char[], int, int, int, int, IAttributeSequenceHandler) ParsingAttributeSequenceUtil.java" time_ms="36562"/>
+  <node method="org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(char[], int, int, boolean, int, int) TemplateHandlerAdapterMarkupHandler.java" time_ms="34656"/>
+  <node method="org.attoparser.MarkupEventProcessorHandler.handleAttribute(char[], int, int, int, int, int, int, int, int, int, int, int, int, int, int) MarkupEventProcessorHandler.java" time_ms="33062"/>
+  <node method="org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(String) AbstractNestablePropertyAccessor.java" time_ms="29734"/>
+  <node method="org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleAttribute(char[], int, int, int, int, int, int, int, int, int, int, int, int, int, int) TemplateHandlerAdapterMarkupHandler.java" time_ms="29375"/>
+  <node method="org.attoparser.ParsingElementMarkupUtil.parseCloseElement(char[], int, int, int, int, IMarkupHandler) ParsingElementMarkupUtil.java" time_ms="26906"/>
+  <node method="org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleText(char[], int, int, int, int) TemplateHandlerAdapterMarkupHandler.java" time_ms="25640"/>
+  <node method="java.lang.Class.forName(String, boolean, ClassLoader) Class.java" time_ms="24950"/>
+  <node method="org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(char[], int, int, int, int) TemplateHandlerAdapterMarkupHandler.java" time_ms="22640"/>
+  <node method="java.util.regex.Pattern.matcher(CharSequence) Pattern.java" time_ms="21437"/>
+</view>

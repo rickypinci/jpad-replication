@@ -1,0 +1,10 @@
+<view description="CPU hot spots">
+  <node method="org.thymeleaf.engine.OpenElementTag.beHandled(ITemplateHandler) OpenElementTag.java" time_ms="206896"/>
+  <node method="org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(IOpenElementTag) ProcessorTemplateHandler.java" time_ms="206896"/>
+  <node method="org.thymeleaf.engine.Model.process(ITemplateHandler) Model.java" time_ms="204758"/>
+  <node method="org.springframework.boot.web.embedded.tomcat.TomcatWebServer$1.run() TomcatWebServer.java" time_ms="180171"/>
+  <node method="org.thymeleaf.processor.element.AbstractElementModelProcessor.process(ITemplateContext, IModel, IElementModelStructureHandler) AbstractElementModelProcessor.java" time_ms="23466"/>
+  <node method="org.apache.solr.client.solrj.SolrClient.query(String, SolrParams, SolrRequest$METHOD) SolrClient.java" time_ms="17979"/>
+  <node method="org.attoparser.MarkupParser.parseBuffer(char[], int, int, IMarkupHandler, ParseStatus) MarkupParser.java" time_ms="17828"/>
+  <node method="java.util.AbstractSet.equals(Object) AbstractSet.java" time_ms="12515"/>
+</view>

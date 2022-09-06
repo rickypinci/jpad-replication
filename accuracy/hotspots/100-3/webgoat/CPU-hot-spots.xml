@@ -1,0 +1,30 @@
+<view description="CPU hot spots">
+  <node method="org.thymeleaf.spring5.view.ThymeleafView.renderFragment(Set, Map, HttpServletRequest, HttpServletResponse) ThymeleafView.java" time_ms="392139"/>
+  <node method="org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(IEngineConfiguration, String, String, Set, ITemplateResource, int, int, TemplateMode, boolean, ITemplateHandler) AbstractMarkupTemplateParser.java" time_ms="376139"/>
+  <node method="org.attoparser.MarkupParser.parse(Reader, IMarkupHandler) MarkupParser.java" time_ms="348616"/>
+  <node method="org.attoparser.MarkupParser.parseBuffer(char[], int, int, IMarkupHandler, ParseStatus) MarkupParser.java" time_ms="347345"/>
+  <node method="org.attoparser.ParsingElementMarkupUtil.parseOpenElement(char[], int, int, int, int, IMarkupHandler) ParsingElementMarkupUtil.java" time_ms="260173"/>
+  <node method="org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(char[], int, int, int, int) TemplateHandlerAdapterMarkupHandler.java" time_ms="233923"/>
+  <node method="org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(IOpenElementTag) ProcessorTemplateHandler.java" time_ms="219220"/>
+  <node method="org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(IExpressionContext, IStandardVariableExpression, StandardExpressionExecutionContext) SPELVariableExpressionEvaluator.java" time_ms="79406"/>
+  <node method="org.springframework.web.servlet.support.RequestContext.getBindStatus(String, boolean) RequestContext.java" time_ms="66187"/>
+  <node method="java.lang.ClassLoader.loadClass(String) ClassLoader.java" time_ms="55966"/>
+  <node method="java.lang.String.substring(int, int) String.java" time_ms="47000"/>
+  <node method="org.attoparser.ParsingElementMarkupUtil.parseStandaloneElement(char[], int, int, int, int, IMarkupHandler) ParsingElementMarkupUtil.java" time_ms="44656"/>
+  <node method="java.lang.StringBuilder.toString() StringBuilder.java" time_ms="43281"/>
+  <node method="java.lang.String.valueOf(char) String.java" time_ms="43125"/>
+  <node method="java.lang.Character.toString(char) Character.java" time_ms="43109"/>
+  <node method="java.lang.String.valueOf(int) String.java" time_ms="42406"/>
+  <node method="org.springframework.core.io.ClassPathResource.getInputStream() ClassPathResource.java" time_ms="39796"/>
+  <node method="org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(String) AbstractNestablePropertyAccessor.java" time_ms="35859"/>
+  <node method="org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(char[], int, int, boolean, int, int) TemplateHandlerAdapterMarkupHandler.java" time_ms="35359"/>
+  <node method="org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(char[], int, int, int, int, IAttributeSequenceHandler) ParsingAttributeSequenceUtil.java" time_ms="34796"/>
+  <node method="java.lang.String.&lt;init&gt;(char[], int, int) String.java" time_ms="34281"/>
+  <node method="org.attoparser.MarkupEventProcessorHandler.handleAttribute(char[], int, int, int, int, int, int, int, int, int, int, int, int, int, int) MarkupEventProcessorHandler.java" time_ms="31609"/>
+  <node method="java.lang.Class.forName(String, boolean, ClassLoader) Class.java" time_ms="30640"/>
+  <node method="org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleAttribute(char[], int, int, int, int, int, int, int, int, int, int, int, int, int, int) TemplateHandlerAdapterMarkupHandler.java" time_ms="28140"/>
+  <node method="org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleText(char[], int, int, int, int) TemplateHandlerAdapterMarkupHandler.java" time_ms="23125"/>
+  <node method="org.attoparser.ParsingElementMarkupUtil.parseCloseElement(char[], int, int, int, int, IMarkupHandler) ParsingElementMarkupUtil.java" time_ms="22859"/>
+  <node method="java.util.regex.Pattern.matcher(CharSequence) Pattern.java" time_ms="22765"/>
+  <node method="java.util.StringTokenizer.nextToken() StringTokenizer.java" time_ms="20437"/>
+</view>

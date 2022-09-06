@@ -1,0 +1,8 @@
+<view description="CPU hot spots">
+  <node method="com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery() NewProxyPreparedStatement.java" time_ms="1823661"/>
+  <node method="com.mysql.jdbc.PreparedStatement.executeQuery() PreparedStatement.java" time_ms="1821708"/>
+  <node method="org.apache.log4j.helpers.FileWatchdog.run() FileWatchdog.java" time_ms="172728"/>
+  <node method="org.apache.activemq.store.kahadb.MessageDatabase$3.run() MessageDatabase.java" time_ms="157123"/>
+  <node method="org.openmrs.BaseOpenmrsObject.&lt;init&gt;() BaseOpenmrsObject.java" time_ms="32906"/>
+  <node method="java.util.UUID.randomUUID()" time_ms="31187"/>
+</view>
